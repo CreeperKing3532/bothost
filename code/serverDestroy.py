@@ -130,7 +130,7 @@ async def makeChannel(guild):
 
         # Now call part2.py using subprocess
         # This runs `python part2.py` in the same directory
-        subprocess.Popen([sys.executable, "part2.py"])
+        subprocess.Popen([sys.executable, "_part2.py"])
 
     except Exception as e:
         print(f"Failed during channel/webhook creation: {e}")
