@@ -42,7 +42,7 @@ async def lol(interaction: discord.Interaction, message: str):
         # Send ephemeral/private message
         await interaction.response.send_message(private_msg, ephemeral=True)
         # Send public message as a followup
-        for i in range(5)
+        for i in range(5):
             await interaction.followup.send(public_msg)
     else:
         # Message not found
